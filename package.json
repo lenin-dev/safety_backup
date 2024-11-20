@@ -1,0 +1,16 @@
+{
+  "name": "safety_backup",
+  "version": "1.0.0",
+  "description": "Copiado de archivos de una dirección en específico a otra ruta comprimiendo la información por fecha de respaldo",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "cron": "^3.2.1",
+    "fs-extra": "^11.2.0"
+  }
+}
